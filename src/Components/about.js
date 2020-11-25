@@ -11,14 +11,24 @@ const About = () => {
       <div className="row">
         <div className="col">
           <img
-            src="./Assets/FB_IMG_1593804519464.jpg"
+            src={process.env.PUBLIC_URL + "/assets/FB_IMG_1593804519464.jpg"}
             alt="Manuel Pierre"
             className="img-thumbnail"
           />
         </div>
         <div className="col">
           <p>
-          Full Stack Developer using Healthcare Ethics, Compliance, and Privacy background to  leverage my experience to provide an impactful user experience.  Recently earned a certificate in full stack web development certificate from Rutgers University, with newly developed skills in JavaScript, CSS, React.js, and responsive web design.  I recently worked with a team multi-page MERN app that helps local business owners create a viable ecommerce site where they can provide users with an experience that is personalized, simple and modern.  I am motivated to provide in-depth solutions to problems.   I’m passionate about leveraging my skills as part of a growing team to build greater applications on the web.  
+            Full Stack Developer using Healthcare Ethics, Compliance, and
+            Privacy background to leverage my experience to provide an impactful
+            user experience. Recently earned a certificate in full stack web
+            development certificate from Rutgers University, with newly
+            developed skills in JavaScript, CSS, React.js, and responsive web
+            design. I recently worked with a team multi-page MERN app that helps
+            local business owners create a viable ecommerce site where they can
+            provide users with an experience that is personalized, simple and
+            modern. I am motivated to provide in-depth solutions to problems.
+            I’m passionate about leveraging my skills as part of a growing team
+            to build greater applications on the web.
           </p>
           <br></br>
           <br></br>

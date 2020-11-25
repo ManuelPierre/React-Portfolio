@@ -17,7 +17,7 @@ const Portfolio = () => {
               </a>
             </h2>
             <img
-              src="./Assets/wallet-2292428_1920.jpg"
+              src={process.env.PUBLIC_URL + "/assets/wallet-2292428_1920.jpg"}
               alt="Manuel Pierre"
               style={{ width: "100%" }}
             />
@@ -41,7 +41,8 @@ const Portfolio = () => {
               </a>
             </h2>
             <img
-              src="./Assets/depression-63213_1920.jpg"
+              src={ process.env.PUBLIC_URL + "/assets/depression-63213_1920.jpg"
+              }
               alt="Manuel Pierre"
               style={{ width: "100%" }}
             />
@@ -67,7 +68,7 @@ const Portfolio = () => {
               </a>
             </h2>
             <img
-              src="./Assets/people-2604149_1920.jpg"
+              src={process.env.PUBLIC_URL + "/assets/people-2604149_1920.jpg"}
               alt="Manuel Pierre"
               style={{ width: "100%" }}
             />
@@ -91,7 +92,7 @@ const Portfolio = () => {
               </a>
             </h2>
             <img
-              src="./Assets/planner-5123002_1920.jpg"
+              src={process.env.PUBLIC_URL + "/assets/planner-5123002_1920.jpg"}
               alt="Manuel Pierre"
               style={{ width: "100%" }}
             />
@@ -115,7 +116,10 @@ const Portfolio = () => {
               </a>
             </h2>
             <img
-              src="./Assets/respiratory-protection-4991354_1920.jpg"
+              src={
+                process.env.PUBLIC_URL +
+                "/assets/respiratory-protection-4991354_1920.jpg"
+              }
               alt="Manuel Pierre"
               style={{ width: "100%" }}
             />
@@ -139,7 +143,9 @@ const Portfolio = () => {
               </a>
             </h2>
             <img
-              src="./Assets/phone-booth-203492_1920.jpg"
+              src={
+                process.env.PUBLIC_URL + "/assets/phone-booth-203492_1920.jpg"
+              }
               alt="Manuel Pierre"
               style={{ width: "100%" }}
             />
