@@ -61,7 +61,7 @@ const About = () => {
           </p>
           <p>
             Link to Manuel Pierre's Resume:
-            <a href="/Assets/Resume.pdf">Manuel Pierre's Resume</a>
+            <a href="/assets/Resume.pdf">Manuel Pierre's Resume</a>
           </p>
         </div>
       </div>
